@@ -63,11 +63,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ch45_nonPBR
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ea58059b209f8c14789ca2edf9e43eff,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: ea58059b209f8c14789ca2edf9e43eff,
         type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 71310a16f5a0c68428997b7d1ba1ec13, type: 2}
+    - target: {fileID: 5866666021909216657, guid: ea58059b209f8c14789ca2edf9e43eff,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -80,6 +90,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 943126983868883756}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ea58059b209f8c14789ca2edf9e43eff,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3926424107122932470}
     - targetCorrespondingSourceObject: {fileID: -3388996257878338913, guid: ea58059b209f8c14789ca2edf9e43eff,
         type: 3}
       insertIndex: -1
@@ -167,4 +181,16 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 1.9626064
   m_Direction: 1
-  m_Center: {x: 0, y: 0.93442106, z: 0}
+  m_Center: {x: 0, y: 1.2, z: 0}
+--- !u!114 &3926424107122932470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8730034120754275138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f1fdf5b01a9bbb428218f745744f99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
